@@ -2,7 +2,7 @@
 We shall solve the transient laminar flow problem numerically, by the following algorithm: the explicit Euler scheme in time, and central finite-difference in space,
 
 $$
-\frac{u_{j}^{n+1} - u_{j}^{n}}{\Delta t} = g + \nu \frac{u_{j-1}^{n} - 2u_{j}^{n} + u_{j+1}^{n}}{\Delta y^{2}}, \tag{8}
+\frac{u_{j}^{n+1} - u_{j}^{n}}{\Delta t} = g + \nu \frac{u_{j-1}^{n} - 2u_{j}^{n} + u_{j+1}^{n}}{\Delta y^{2}}, 
 $$
 
 where:  
