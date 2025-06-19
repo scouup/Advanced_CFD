@@ -18,9 +18,8 @@ The two end nodes $j = 1$ and $j = N + 1$ are located on the channel walls.
 - $\nu = 0.1$.  
 
 **Time step size:**  
-$$
-\Delta t = 0.32 \frac{\Delta y^{2}}{\nu}.
-$$
+
+$\Delta t = 0.32 \frac{\Delta y^{2}}{\nu}$.
 
 ### Key Details:  
 1. **Numerical Scheme:**  
